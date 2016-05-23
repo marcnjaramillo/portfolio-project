@@ -1,0 +1,45 @@
+h3 {
+  display:block;
+  margin-bottom:10px;
+}
+
+body {
+  width: 300px;
+  padding: 10px;
+  font-family: helvetica, arial, sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  -webkit-box-shadow: 1px 3px 5px 0px grey;
+  -moz-box-shadow: 1px 3px 5px 0px grey;
+  box-shadow: 1px 3px 5px 0px grey;
+  }
+
+.animal {
+  width:auto;
+  padding:5px;
+  border: 1px solid grey;
+}
+.fact {
+  font-weight: normal;
+  font-style: italic;
+  font-size: 13px;
+}
+
+ul {
+  list-style-type: none;
+  padding:0;
+  margin:0;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 13px;
+}
+span {
+  font-weight: bold;
+  font-style:normal;
+  font-size: 13px;
+}
+.description {
+  font-weight:normal;
+  font-style:normal;
+  font-size: 13px;
+}

@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang='en'>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+    <link href='http://fonts.googleapis.com/css?family=Lato:100, 300' rel='stylesheet' ty>
+    <script type="text/javascript" src="bootstrap/js/jquery-2.1.4.min.js"></script>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img class="title-logo" src="images/grad-pic.jpg" alt="Marc">
+        </div>
+        <div class="col-md-6 text-right text-uppercase">
+          <h1 class="title-super text-thin">Marc Jaramillo</h1>
+          <h4>Front-end Developer</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <picture>
+            <source
+              media="(min-width: 1024px)"
+              srcset="images/waterfall-large.jpg">
+            <source
+              media="(max-width: 1000px) and (min-width: 701px)"
+              srcset="images/waterfall-medium.jpg">
+            <source
+              media="(max-width: 700px)"
+              srcset="images/waterfall-small.jpg">
+            <img src="images/waterfall-small.jpg" alt="waterfall in Hawaii">
+          </picture>
+        </div>
+      </div>
+      <div class="row">
+        <div class = "col-md-12">
+          <h2 class="text-muted">Featured Work</h2>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <img class="img-responsive" src="images/animal-trading-card-small.jpg" alt="animal trading card project" data-toggle="modal" data-target="#project1">
+          <h3 class="text-uppercase">Animal Trading Cards</h3>
+          <a class="btn" type="button" href="card.html">View Project</a>
+        </div>
+        <div class="col-md-4">
+          <img class="img-responsive" src="images/red-mountains.jpg" alt="red mountains in Hawaii" data-toggle="modal" data-target="#project2">
+          <h3 class="text-uppercase">Project Name</h3>
+          <a class="btn" type="button" href="default.html">View Project</a>
+        </div>
+        <div class="col-md-4">
+          <img class="img-responsive" src="images/green-mountain.jpg" alt="green mountains in Hawaii" data-toggle="modal" data-target="#project3">
+          <h3 class="text-uppercase">Project Name</h3>
+          <a class="btn" type="button" href="default.html">View Project</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+  <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel">Animal Trading Cards</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img" src="images/animal-trading-card.jpg" alt="animal trading card project">
+          This was my first project. I created this by modifying the provided HTML to resemble a design sample. This was a great way to become familiar with CSS and deepen my understanding of HTML.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel">Project 2 Page</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img" src="images/rocky-beach.jpg" alt="waves on a rocky beach">
+          Description of project.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel">Project 3 Page</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img" src="images/tropical-flowers.jpg" alt="red tropical flowers">
+          Description of project.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </body>
+</html>
